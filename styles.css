@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    background-image: url("f0mpjw4ddzv41.png");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.layout > * {
+    flex: 1 100%;
+}
+
+.nav-top{
+    display: flex;
+    height: 5%;
+    width: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 15rem;
+}
+
+.quiks{
+    justify-content: center;
+    width: 50%;
+    color: white;
+}
+
+.primary{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-color:rgba(0, 0, 0, 0);
+    border-style: solid;
+    font-style: oblique;
+    position: relative;
+    color: white;    
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    margin: 3rem;
+}
+
+#time{
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#date{
+    font-size: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#music{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.apps{
+    margin: 10rem;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.bottom-bar{
+    display: flex;
+    flex-wrap: wrap;
+    border-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    justify-content: space-evenly;
+}
+
+.bottom-bar img{
+    width: 100px;
+    height: 100px;
+}
+
+#folder{
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0.0);
+}
+
+#mail{
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0.0);
+}
+
+#internet{
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0.0);
+}
+
+#reddit{
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0.0);
+}
+
+#spotify{
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0.0);
+}
+
+#steam{
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0.0);
+}
+
+#discord{
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0.0);
+}
+
+#nvidia{
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0.0);
+}
+
+#vscode{
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0.0);
+}
+
+@media screen and (min-width: 769px) {
+   html, body{
+       min-height: 100%;
+   }
+   .primary{
+       margin: 15rem;
+   }
+}
+
+@media screen and (min-width: 1025px) {
+    .primary{
+        margin: 25rem;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    html, body{
+        min-height: 100%;
+    }
+    .primary{
+        margin-left: 30rem;
+        margin-right: 30rem;
+    }
+    .bottom-bar{
+        margin-top: 35rem;
+        padding-bottom: 0rem;
+    }
+   
+}
+
+@media screen and (min-width: 2160px){
+    html, body{
+        height: 100%;
+    }
+    .layout{
+        display: flex;
+        height: 90%;
+        width: 100%;
+        flex-flow: row wrap;
+    }
+    .nav-top{
+        margin-bottom: 0rem;
+    }
+    .primary{
+        margin-left: 50rem;
+        margin-right: 50rem;
+        margin-bottom: -20rem;
+    }
+}
