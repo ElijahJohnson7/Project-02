@@ -5,8 +5,10 @@
 html, body{
     height: 100%;
     margin: 0;
-    background-image: url("f0mpjw4ddzv41.png");
-    background-color: black;
+    background: url("f0mpjw4ddzv41.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-position: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -128,28 +130,31 @@ html, body{
     border: rgba(0, 0, 0, 0.0);
 }
 
-@media screen and (min-width: 769px) {
-   html, body{
+@media screen and (min-width: 768px) {
+   html{
        min-height: 100%;
    }
    .primary{
-       margin: 15rem;
+       margin: 5rem;
    }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
     .primary{
-        margin: 25rem;
+        margin: 15rem;
     }
 }
 
-@media screen and (min-width: 1441px) {
-    html, body{
+@media screen and (min-width: 1440px) {
+    html{
         min-height: 100%;
     }
+    .nav-top{
+        margin-bottom: 0rem;
+    }
     .primary{
-        margin-left: 30rem;
-        margin-right: 30rem;
+        margin-left: 25rem;
+        margin-right: 25rem;
     }
     .bottom-bar{
         margin-top: 35rem;
@@ -158,8 +163,8 @@ html, body{
    
 }
 
-@media screen and (min-width: 2160px){
-    html, body{
+@media screen and (min-width: 2560px){
+    html{
         height: 100%;
     }
     .layout{
@@ -172,8 +177,7 @@ html, body{
         margin-bottom: 0rem;
     }
     .primary{
-        margin-left: 50rem;
-        margin-right: 50rem;
-        margin-bottom: -20rem;
+        margin-left: 6 0rem;
+        margin-right: 60rem;
     }
 }
